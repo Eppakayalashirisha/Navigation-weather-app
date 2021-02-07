@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <!-- adding css stylesheet-->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <!-- background image-->
+  <body class="bg-image">
+      <!-- weather forecast body-->
+    <div class="weather-body">
+        <!-- current data -->
+      <div class="current-data">
+        <h1>Weather Forecast</h1>
+        <div class="location-details">
+          <div class="city-details">
+            <div class="city" id="city"></div>
+            <div class="date" id="date"></div>
+          </div>
+          <div id="icon">
+            <img id="wicon" src="./icons/unknown.png" alt="Weather icon" />
+          </div>
+          <div class="temp" id="temp"></div>
+          <div class="weather" id="weather"></div>
+        </div>
+      </div>
+      <!-- forecast data-->
+      <div class="forecast-data" id="forecast-data"></div>
+    </div>
+<!--Javascript file-->
+    <script src="./app.js"></script>
+  </body>
+</html>
